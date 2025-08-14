@@ -75,7 +75,7 @@ export default function App(){
           ))}
         </div>
 
-        <div className="footer-note">Designed for Assignment-3 • Built with React + Vite</div>
+        <div className="footer-note">Designed By Aditya Nanda for the Assignment 3</div>
       </div>
 
       <CartDrawer
