@@ -1,6 +1,10 @@
 # Kickz — Online Shoes Store (Assignment-3)
 
-Sleek, glassy React + Vite app for an online shoes store. Features:
+Live Demo: **[https://bucolic-longma-60c49d.netlify.app/](https://bucolic-longma-60c49d.netlify.app/)**
+
+Sleek, glassy React + Vite app for an online shoes store.
+
+## Features
 - Product grid with beautiful hover effects
 - Add to cart, remove from cart
 - Increase/decrease quantity in both product cards and cart
@@ -8,6 +12,15 @@ Sleek, glassy React + Vite app for an online shoes store. Features:
 - Category filters + search
 - Cart persisted in `localStorage`
 - Built with plain CSS (no Tailwind)
+
+## Tech Stack / What We Used
+- **React 18** — UI library
+- **Vite** — Fast build & dev environment
+- **JavaScript (ES6+)**
+- **Plain CSS** — custom styles, glassmorphism effects
+- **localStorage** — cart persistence
+- **Unsplash** — product images
+- **Netlify** — hosting
 
 ## Quick Start
 
@@ -20,32 +33,3 @@ npm run dev
 
 # 3) Build for production
 npm run build && npm run preview
-```
-
-## Deploy (Netlify)
-- Create a new site from Git (or drop the build folder).
-- Build command: `npm run build`
-- Publish directory: `dist`
-- If needed, add environment `NODE_VERSION` (>= 18).
-
-## Deploy (Vercel)
-- New Project → Import repo → Framework preset: **Vite**
-- Build Command: `npm run build`
-- Output: `dist`
-
-## What’s inside
-```
-/src
-  App.jsx
-  main.jsx
-  styles.css
-  /components
-    Header.jsx
-    ProductCard.jsx
-    CartDrawer.jsx
-  /data
-    products.js
-```
-
-## Attribution
-Product photos are sourced from Unsplash links in `products.js`.
